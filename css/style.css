@@ -4,6 +4,12 @@ body {
     font-weight: normal;
 }
 /* Login Page */
+label {
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
 .bg-grey{
     background: #f1f1f1;
 }
@@ -16,9 +22,9 @@ body {
 }
 .login-form{
     width: 550px;
+    background-color: white;
     margin: auto;
     padding: 30px;
-    background: #fff;
     margin-top: 13%;
     border-radius: 3px;
 }
@@ -29,6 +35,16 @@ body {
     margin-bottom:20px;
 }
 /* Main Video Page */
+a:hover {
+    text-decoration: none;
+}
+p {
+    font-size: 12px
+}
+p.video-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
 .video-page .container-fluid{
     padding: 0px;
 }
